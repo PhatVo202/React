@@ -1,0 +1,41 @@
+
+
+.wrap{
+    background: rgba(128, 128, 128, 0.34);
+
+}
+
+.seat{
+    width: 50px;
+    height: 50px;
+    color: yellow;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+}
+
+.chair{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+    &.number{
+        background-color: transparent;
+        color: white;
+    }
+
+    &.booked{
+        background-color: #ffc008;
+    }
+
+    &.available{
+        background-color: gray;
+    }
+
+    &.selected{
+        background-color: #28a745;
+    }
+}
